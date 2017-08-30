@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sbm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//-----------------------------------------------------------------------
+	//	MARK: UISearchbar Delegate
+	//-----------------------------------------------------------------------
+	
+	public func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -&gt; Bool {
+		return false
+	}
+	
+	public func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBarShouldEndEditing(_ searchBar: UISearchBar) -&gt; Bool {
+		return true
+	}
+	
+	public func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+		
+	}
+	
+	public func searchBar(_ searchBar: UISearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -&gt; Bool {
+		return true
+	}
+	
+	public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBarBookmarkButtonClicked(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBarResultsListButtonClicked(_ searchBar: UISearchBar) {
+		
+	}
+	
+	public func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+		
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6380C84C-643E-4E7C-92FD-980603BCB7D4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UISearchbar - Methods</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

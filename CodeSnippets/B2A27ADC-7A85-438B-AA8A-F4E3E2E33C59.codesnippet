@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>svclass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#classname#&gt;ViewController (){
+	
+}
+
+@end
+
+@implementation &lt;#classname#&gt;ViewController
+
+//---------------------------------------------------------------------------------------------
+//  UIViewController Delegate
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - UIViewController Delegate
+
+- (void)viewDidLoad{
+	[super viewDidLoad];
+	
+	[self configUI];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+	[super viewWillAppear:animated];
+	
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+	[super viewDidAppear:animated];
+	
+	[self loadUI];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+	[super viewWillDisappear:animated];
+	
+}
+
+- (void)viewDidDisappear:(BOOL)animated{
+	[super viewDidDisappear:animated];
+	
+}
+
+//---------------------------------------------------------------------------------------------
+//  UIScrollView Delegate
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - UIScrollView Delegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+	
+}
+
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView{
+	return YES;
+}
+
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+	
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
+	
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(UIView *)view{
+	
+}
+
+- (void)scrollViewDidZoom:(UIScrollView *)scrollView{
+	
+}
+
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale{
+	
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+	return nil;
+}
+
+//---------------------------------------------------------------------------------------------
+//  Custom methods
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - Custom methods
+
+- (void)configUI{
+	
+}
+
+- (void)loadUI{
+	
+}
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2A27ADC-7A85-438B-AA8A-F4E3E2E33C59</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Obj-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewController - UIScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

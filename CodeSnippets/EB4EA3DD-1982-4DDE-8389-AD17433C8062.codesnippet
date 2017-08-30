@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cvclass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#classname#&gt;ViewController (){
+	
+}
+
+@end
+
+@implementation &lt;#classname#&gt;ViewController
+
+//---------------------------------------------------------------------------------------------
+//  UIViewController Delegate
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - UIViewController Delegate
+
+- (void)viewDidLoad{
+	[super viewDidLoad];
+	
+	[self configUI];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+	[super viewWillAppear:animated];
+	
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+	[super viewDidAppear:animated];
+	
+	[self loadUI];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+	[super viewWillDisappear:animated];
+	
+}
+
+- (void)viewDidDisappear:(BOOL)animated{
+	[super viewDidDisappear:animated];
+	
+}
+
+//---------------------------------------------------------------------------------------------
+//  UICollectionView Delegate / Datasource
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - UICollectionView Delegate / Datasource
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+	return 1;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+	return 1;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+	
+	UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
+	return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+	
+}
+
+//-----------------------------
+//  Flow layout
+//-----------------------------
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+	return CGSizeZero;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
+	return 1;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
+	return 1;
+}
+
+//---------------------------------------------------------------------------------------------
+//  Custom methods
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - Custom methods
+
+- (void)configUI{
+	
+}
+
+- (void)loadUI{
+	
+}
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EB4EA3DD-1982-4DDE-8389-AD17433C8062</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Obj-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewController - UICollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>svclass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#classname#&gt;ViewController: UIViewController, UIScrollViewDelegate {
+	
+	@IBOutlet var sv&lt;#varname#&gt;: UIScrollView?
+	
+	//-----------------------------------------------------------------------
+	//	MARK: UIViewController
+	//-----------------------------------------------------------------------
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		configUI()
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		
+		loadUI()
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		super.viewDidDisappear(animated)
+		
+	}
+	
+	//-----------------------------------------------------------------------
+	//	MARK: UIScrollView Delegate
+	//-----------------------------------------------------------------------
+	
+	//	scroll
+	
+	func scrollViewDidScroll(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewShouldScrollToTop(_ scrollView: UIScrollView) -&gt; Bool {
+		return true
+	}
+	
+	func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+		
+	}
+	
+	//	adjust
+	
+	func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) {
+		
+	}
+	
+	//	dragging
+	
+	func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer&lt;CGPoint&gt;) {
+		
+	}
+	
+	func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+		
+	}
+	
+	//	zooming
+	
+	func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
+		
+	}
+	
+	func scrollViewDidZoom(_ scrollView: UIScrollView) {
+		
+	}
+	
+	func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) {
+		
+	}
+	
+	func viewForZooming(in scrollView: UIScrollView) -&gt; UIView? {
+		return nil
+	}
+	
+	//-----------------------------------------------------------------------
+	//	MARK: Custom methods
+	//-----------------------------------------------------------------------
+	
+	func configUI() {
+		
+	}
+	
+	func loadUI() {
+		
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>623F1991-8CD6-4091-B9E8-F1DED8E096E6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewController - UIScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

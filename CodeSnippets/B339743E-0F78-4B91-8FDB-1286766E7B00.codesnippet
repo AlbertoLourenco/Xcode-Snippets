@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vccontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#classname#&gt;ViewController: UIViewController {
+	
+	//-----------------------------------------------------------------------
+	//	MARK: UIViewController
+	//-----------------------------------------------------------------------
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		configUI()
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		
+		loadUI()
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		super.viewDidDisappear(animated)
+		
+	}
+	
+	//-----------------------------------------------------------------------
+	//	MARK: Custom methods
+	//-----------------------------------------------------------------------
+	
+	func configUI() {
+		
+	}
+	
+	func loadUI() {
+		
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B339743E-0F78-4B91-8FDB-1286766E7B00</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewController - Class</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

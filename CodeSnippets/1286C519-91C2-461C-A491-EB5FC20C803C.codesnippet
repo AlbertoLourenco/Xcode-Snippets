@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tbcontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#classname#&gt;ViewController: UITableViewController {
+	
+	//-----------------------------------------------------------------------
+	//	MARK: UIViewController
+	//-----------------------------------------------------------------------
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		configUI()
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		
+		loadUI()
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		super.viewDidDisappear(animated)
+		
+	}
+	
+	//-----------------------------------------------------------------------
+	//	MARK: UITableView Delegate / Datasource
+	//-----------------------------------------------------------------------
+	
+	override func numberOfSections(in tableView: UITableView) -&gt; Int {
+		return 0
+	}
+	
+	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+		return 0
+	}
+	
+	override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+		return nil
+	}
+	
+	override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
+		return nil
+	}
+	
+	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+		return 0
+	}
+	
+	override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+		
+	}
+	
+	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+		
+		var cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! &lt;#cellname#&gt;Cell
+		
+		if cell == nil {
+			cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! &lt;#cellname#&gt;Cell
+		}
+		
+		return cell!
+	}
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		
+	}
+	
+	//-----------------------------------------------------------------------
+	//	MARK: Custom methods
+	//-----------------------------------------------------------------------
+	
+	func configUI() {
+		
+	}
+	
+	func loadUI() {
+		
+	}
+}
+
+class &lt;#cellname#&gt;Cell: UITableViewCell {
+	
+	@IBOutlet var lbl&lt;#varname#&gt;: UILabel?
+	@IBOutlet var img&lt;#varname#&gt;: UIImageView?
+	
+	func loadUI(params: Any) {
+		// set UI values here
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1286C519-91C2-461C-A491-EB5FC20C803C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewController - Class</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

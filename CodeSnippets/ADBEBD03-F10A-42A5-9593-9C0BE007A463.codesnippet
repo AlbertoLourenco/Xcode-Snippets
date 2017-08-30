@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>txtvm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//-----------------------------------------------------------------------
+	//	MARK: UITextView Delegate
+	//-----------------------------------------------------------------------
+	
+	func textViewDidChange(_ textView: UITextView) {
+		
+	}
+	
+	func textViewShouldBeginEditing(_ textView: UITextView) -&gt; Bool {
+		return true
+	}
+	
+	func textViewDidBeginEditing(_ textView: UITextView) {
+		
+	}
+	
+	func textViewShouldEndEditing(_ textView: UITextView) -&gt; Bool {
+		return true
+	}
+	
+	func textViewDidEndEditing(_ textView: UITextView) {
+		
+	}
+	
+	func textViewDidChangeSelection(_ textView: UITextView) {
+		
+	}
+	
+	func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -&gt; Bool {
+		return true
+	}
+	
+	func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -&gt; Bool {
+		return true
+	}
+	
+	func textView(_ textView: UITextView, shouldInteractWith textAttachment: NSTextAttachment, in characterRange: NSRange, interaction: UITextItemInteraction) -&gt; Bool {
+		return true
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ADBEBD03-F10A-42A5-9593-9C0BE007A463</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextView - Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

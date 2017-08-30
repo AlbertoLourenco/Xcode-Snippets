@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wvm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//-----------------------------------------------------------------------
+	//	MARK: UIWebView Delegate
+	//-----------------------------------------------------------------------
+	
+	func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -&gt; Bool {
+		return false
+	}
+	
+	func webViewDidStartLoad(_ webView: UIWebView) {
+		
+	}
+	
+	func webViewDidFinishLoad(_ webView: UIWebView) {
+		
+	}
+	
+	func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
+		
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3E04B2BD-25D6-460E-93EE-C683E620E75B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIWebView - Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>txtvm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//---------------------------------------------------------------------------------------------
+//  UITextView Delegate
+//---------------------------------------------------------------------------------------------
+
+#pragma mark - UITextView Delegate
+
+- (void)textViewDidChange:(UITextView *)textView{
+    
+}
+
+- (void)textViewDidBeginEditing:(UITextView *)textView{
+    
+}
+
+- (void)textViewDidEndEditing:(UITextView *)textView{
+    
+}
+
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView{
+    return YES;
+}
+
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView{
+    return YES;
+}
+
+- (void)textViewDidChangeSelection:(UITextView *)textView{
+    
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction{
+    return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldInteractWithTextAttachment:(NSTextAttachment *)textAttachment inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction{
+    return YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>21C2C04C-05D0-4140-9A54-8B7014E7B947</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Obj-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextView - Methods</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
