@@ -22,7 +22,6 @@ And finally move our “.codesnippet” files to this folder.
 	- ibtf: UITextField
 	- ibvw: UIView
 	- ibwv: UIWebView
-	- ibimg: UIImageView
 	- ibsw: UISwitch
 	- ibst: UIStepper
 	- ibpc: UIPageControl
@@ -31,6 +30,7 @@ And finally move our “.codesnippet” files to this folder.
 	- ibsb: UISearchBar
 	- iblbl: UILabel
 	- ibbtn: UIButton
+	- ibimg: UIImageView
 	- ibact: UIActivityIndicatorView
 	- ibmap: MKMapView
 	- ibwkv: WKWebView
