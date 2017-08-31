@@ -1,5 +1,5 @@
 # Xcode Snippets
-Xcode snippets: Objective-C and Swift
+Developed for Objective-C and Swift.
 
 Here we have a short documentation of Xcode snippets shortcuts. Follow this steps to import these files and do code more fast:
 
