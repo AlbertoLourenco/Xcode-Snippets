@@ -13,7 +13,7 @@ And finally move our “.codesnippet” files to this folder.
 	+ IBOutlets
 ------------------------------------------------
 
-	All IBOutlets snippets have the "ib" prefix and var typ name initials:
+	All IBOutlets snippets have the "ib" prefix and var type name initials:
 
 	- ibsv: UIScrollView
 	- ibcv: UICollectionView
