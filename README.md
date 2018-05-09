@@ -11,9 +11,7 @@ Open Finder, choose “Go > Go to Folder”:
 
 And finally move our “.codesnippet” files to this folder.
 
-------------------------------------------------
-	+ IBOutlets
-------------------------------------------------
+**IBOutlets**
 
 	All IBOutlets snippets have the "ib" prefix and var type name initials:
 
@@ -37,9 +35,7 @@ And finally move our “.codesnippet” files to this folder.
 	- ibmap: MKMapView
 	- ibwkv: WKWebView
 
-------------------------------------------------
-	+ Delegates / Datasources
-------------------------------------------------
+**Delegates / Datasources**
 
 	Methods snippets have var type name initials + "m" (methods):
 
@@ -52,9 +48,7 @@ And finally move our “.codesnippet” files to this folder.
 	- txtvm: UITextView
 	- custom: Custom methods
 
-------------------------------------------------
-	+ Classes
-------------------------------------------------
+**Classes**
 
 	Classes snippets are implementations with delegate/datasource and custom methods:
 
@@ -65,7 +59,5 @@ And finally move our “.codesnippet” files to this folder.
 	- vccontroller: UIViewController
 	- tbcontroller: UITableViewController
 	- cvcontroller: UICollectionViewController
-
-------------------------------------------------
 
 As a gift, you can install a new theme for your code following above steps, go to “FontAndColorThemes” folder and paste “ALTheme.xccolortheme” file. Then open Xcode and go to “Preferences > Fonts & Colors” and choose “ALTheme”.
