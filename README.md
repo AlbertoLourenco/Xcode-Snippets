@@ -1,5 +1,5 @@
 # Xcode Snippets
-![Xcode-Snippets v1.0.0](http://albertolourenco.com.br/github/xcode-snippet.png)
+![Xcode-Snippets v1.0.0](http://albertolourenco.com.br/github/xcode-snippets.png)
 
 Developed for Objective-C and Swift.
 
