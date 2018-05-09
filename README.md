@@ -1,4 +1,6 @@
 # Xcode Snippets
+![Xcode-Snippets v1.0.0](http://albertolourenco.com.br/github/snippet.png)
+
 Developed for Objective-C and Swift.
 
 Here we have a short documentation of Xcode snippets shortcuts. Follow this steps to import these files and do code more fast:
