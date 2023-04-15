@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var lbl&lt;#varname#&gt;: UILabel?</string>
+	<string>@IBOutlet private weak var lbl&lt;#varname#&gt;: UILabel?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>486D54F5-1972-4941-BAEF-B4EF03CC1B5A</string>
 	<key>IDECodeSnippetLanguage</key>

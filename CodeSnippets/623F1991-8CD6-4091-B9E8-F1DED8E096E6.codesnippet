@@ -9,12 +9,12 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#classname#&gt;ViewController: UIViewController, UIScrollViewDelegate {
+	<string>final class &lt;#classname#&gt;ViewController: UIViewController, UIScrollViewDelegate {
 	
-	@IBOutlet var sv&lt;#varname#&gt;: UIScrollView?
+	@IBOutlet private weak var sv&lt;#varname#&gt;: UIScrollView?
 	
 	//-----------------------------------------------------------------------
-	//	MARK: UIViewController
+	//  MARK: - UIViewController
 	//-----------------------------------------------------------------------
 	
 	override func viewDidLoad() {
@@ -45,7 +45,7 @@
 	}
 	
 	//-----------------------------------------------------------------------
-	//	MARK: UIScrollView Delegate
+	//  MARK: - UIScrollView Delegate
 	//-----------------------------------------------------------------------
 	
 	//	scroll
@@ -113,7 +113,7 @@
 	}
 	
 	//-----------------------------------------------------------------------
-	//	MARK: Custom methods
+	//  MARK: - Custom methods
 	//-----------------------------------------------------------------------
 	
 	func configUI() {
@@ -135,6 +135,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

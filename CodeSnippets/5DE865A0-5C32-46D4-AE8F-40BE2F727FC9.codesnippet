@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var st&lt;#varname#&gt;: UIStepper?</string>
+	<string>@IBOutlet private weak var st&lt;#varname#&gt;: UIStepper?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5DE865A0-5C32-46D4-AE8F-40BE2F727FC9</string>
 	<key>IDECodeSnippetLanguage</key>

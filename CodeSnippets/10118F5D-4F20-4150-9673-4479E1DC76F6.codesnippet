@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var sc&lt;#varname#&gt;: UISegmentedControl?</string>
+	<string>@IBOutlet private weak var sc&lt;#varname#&gt;: UISegmentedControl?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>10118F5D-4F20-4150-9673-4479E1DC76F6</string>
 	<key>IDECodeSnippetLanguage</key>

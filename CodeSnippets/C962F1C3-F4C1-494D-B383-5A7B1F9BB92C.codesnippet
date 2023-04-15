@@ -9,75 +9,80 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-	//-----------------------------------------------------------------------
-	//	MARK: UIScrollView Delegate
-	//-----------------------------------------------------------------------
+	<string>//-----------------------------------------------------------------------
+//  MARK: - UIScrollView Delegate
+//-----------------------------------------------------------------------
+
+//	scroll
+
+func scrollViewDidScroll(_ scrollView: UIScrollView) {
 	
-	//	scroll
+}
+
+func scrollViewShouldScrollToTop(_ scrollView: UIScrollView) -&gt; Bool {
+	return true
+}
+
+func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
 	
-	func scrollViewDidScroll(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
 	
-	func scrollViewShouldScrollToTop(_ scrollView: UIScrollView) -&gt; Bool {
-		return true
-	}
+}
+
+func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
 	
-	func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
 	
-	func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+//	adjust
+
+func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) {
 	
-	func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+//	dragging
+
+func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
 	
-	func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+func scrollViewWillEndDragging(_ scrollView: UIScrollView,
+                               withVelocity velocity: CGPoint, 
+                               targetContentOffset: UnsafeMutablePointer&lt;CGPoint&gt;) {
 	
-	//	adjust
+}
+
+func scrollViewDidEndDragging(_ scrollView: UIScrollView, 
+                              willDecelerate decelerate: Bool) {
 	
-	func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+//	zooming
+
+func scrollViewWillBeginZooming(_ scrollView: UIScrollView, 
+                                with view: UIView?) {
 	
-	//	dragging
+}
+
+func scrollViewDidZoom(_ scrollView: UIScrollView) {
 	
-	func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
-		
-	}
+}
+
+func scrollViewDidEndZooming(_ scrollView: UIScrollView, 
+                             with view: UIView?, 
+                             atScale scale: CGFloat) {
 	
-	func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer&lt;CGPoint&gt;) {
-		
-	}
-	
-	func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-		
-	}
-	
-	//	zooming
-	
-	func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
-		
-	}
-	
-	func scrollViewDidZoom(_ scrollView: UIScrollView) {
-		
-	}
-	
-	func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) {
-		
-	}
-	
-	func viewForZooming(in scrollView: UIScrollView) -&gt; UIView? {
-		return nil
-	}
-	</string>
+}
+
+func viewForZooming(in scrollView: UIScrollView) -&gt; UIView? {
+	return nil
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C962F1C3-F4C1-494D-B383-5A7B1F9BB92C</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -89,6 +94,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

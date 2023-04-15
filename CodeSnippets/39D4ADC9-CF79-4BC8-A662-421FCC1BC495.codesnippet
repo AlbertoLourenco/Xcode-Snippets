@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var pv&lt;#varname#&gt;: UIProgressView?</string>
+	<string>@IBOutlet private weak var pv&lt;#varname#&gt;: UIProgressView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>39D4ADC9-CF79-4BC8-A662-421FCC1BC495</string>
 	<key>IDECodeSnippetLanguage</key>

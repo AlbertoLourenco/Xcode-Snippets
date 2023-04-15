@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var act&lt;#varname#&gt;: UIActivityIndicatorView?</string>
+	<string>@IBOutlet private weak var act&lt;#varname#&gt;: UIActivityIndicatorView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>973D1093-CE37-4155-B9D4-A53B23498E57</string>
 	<key>IDECodeSnippetLanguage</key>

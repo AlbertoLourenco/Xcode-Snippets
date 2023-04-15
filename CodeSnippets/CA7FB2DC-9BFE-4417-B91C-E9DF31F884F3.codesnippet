@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var txt&lt;#varname#&gt;: UITextField?</string>
+	<string>@IBOutlet private weak var txt&lt;#varname#&gt;: UITextField?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CA7FB2DC-9BFE-4417-B91C-E9DF31F884F3</string>
 	<key>IDECodeSnippetLanguage</key>

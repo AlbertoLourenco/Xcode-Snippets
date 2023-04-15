@@ -10,52 +10,56 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: UISearchbar Delegate
-	//-----------------------------------------------------------------------
+//  MARK: - UISearchbar Delegate
+//-----------------------------------------------------------------------
+
+public func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -&gt; Bool {
+	return false
+}
+
+public func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
 	
-	public func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -&gt; Bool {
-		return false
-	}
+}
+
+public func searchBarShouldEndEditing(_ searchBar: UISearchBar) -&gt; Bool {
+	return true
+}
+
+public func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
 	
-	public func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
-		
-	}
+}
+
+public func searchBar(_ searchBar: UISearchBar, 
+                      textDidChange searchText: String) {
 	
-	public func searchBarShouldEndEditing(_ searchBar: UISearchBar) -&gt; Bool {
-		return true
-	}
+}
+
+public func searchBar(_ searchBar: UISearchBar, 
+                      shouldChangeTextIn range: NSRange, 
+                      replacementText text: String) -&gt; Bool {
+	return true
+}
+
+public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
 	
-	public func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-		
-	}
+}
+
+public func searchBarBookmarkButtonClicked(_ searchBar: UISearchBar) {
 	
-	public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-		
-	}
+}
+
+public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
 	
-	public func searchBar(_ searchBar: UISearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -&gt; Bool {
-		return true
-	}
+}
+
+public func searchBarResultsListButtonClicked(_ searchBar: UISearchBar) {
 	
-	public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-		
-	}
+}
+
+public func searchBar(_ searchBar: UISearchBar, 
+                      selectedScopeButtonIndexDidChange selectedScope: Int) {
 	
-	public func searchBarBookmarkButtonClicked(_ searchBar: UISearchBar) {
-		
-	}
-	
-	public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-		
-	}
-	
-	public func searchBarResultsListButtonClicked(_ searchBar: UISearchBar) {
-		
-	}
-	
-	public func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-		
-	}</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6380C84C-643E-4E7C-92FD-980603BCB7D4</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -67,6 +71,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var wk&lt;#varname#&gt;: WKWebView?</string>
+	<string>@IBOutlet private weak var wk&lt;#varname#&gt;: WKWebView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6A2B6874-9548-4810-9A1D-7AA464057D14</string>
 	<key>IDECodeSnippetLanguage</key>

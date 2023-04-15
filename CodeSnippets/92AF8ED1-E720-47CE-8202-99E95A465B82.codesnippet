@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var cv&lt;#varname#&gt;: UICollectionView?</string>
+	<string>@IBOutlet private weak var cv&lt;#varname#&gt;: UICollectionView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92AF8ED1-E720-47CE-8202-99E95A465B82</string>
 	<key>IDECodeSnippetLanguage</key>

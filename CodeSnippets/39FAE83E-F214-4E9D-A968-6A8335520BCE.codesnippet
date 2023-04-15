@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var wv&lt;#varname#&gt;: UIWebView?</string>
+	<string>@IBOutlet private weak var wv&lt;#varname#&gt;: UIWebView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>39FAE83E-F214-4E9D-A968-6A8335520BCE</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

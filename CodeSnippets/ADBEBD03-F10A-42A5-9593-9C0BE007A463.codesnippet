@@ -10,44 +10,53 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: UITextView Delegate
-	//-----------------------------------------------------------------------
+//  MARK: - UITextView Delegate
+//-----------------------------------------------------------------------
+
+func textViewDidChange(_ textView: UITextView) {
 	
-	func textViewDidChange(_ textView: UITextView) {
-		
-	}
+}
+
+func textViewShouldBeginEditing(_ textView: UITextView) -&gt; Bool {
+	return true
+}
+
+func textViewDidBeginEditing(_ textView: UITextView) {
 	
-	func textViewShouldBeginEditing(_ textView: UITextView) -&gt; Bool {
-		return true
-	}
+}
+
+func textViewShouldEndEditing(_ textView: UITextView) -&gt; Bool {
+	return true
+}
+
+func textViewDidEndEditing(_ textView: UITextView) {
 	
-	func textViewDidBeginEditing(_ textView: UITextView) {
-		
-	}
+}
+
+func textViewDidChangeSelection(_ textView: UITextView) {
 	
-	func textViewShouldEndEditing(_ textView: UITextView) -&gt; Bool {
-		return true
-	}
-	
-	func textViewDidEndEditing(_ textView: UITextView) {
-		
-	}
-	
-	func textViewDidChangeSelection(_ textView: UITextView) {
-		
-	}
-	
-	func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -&gt; Bool {
-		return true
-	}
-	
-	func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -&gt; Bool {
-		return true
-	}
-	
-	func textView(_ textView: UITextView, shouldInteractWith textAttachment: NSTextAttachment, in characterRange: NSRange, interaction: UITextItemInteraction) -&gt; Bool {
-		return true
-	}</string>
+}
+
+func textView(_ textView: UITextView, 
+              shouldChangeTextIn range: NSRange, 
+              replacementText text: String) -&gt; Bool {
+	return true
+}
+
+func textView(_ textView: UITextView, 
+              shouldInteractWith URL: URL, 
+              in characterRange: NSRange, 
+              interaction: UITextItemInteraction) -&gt; Bool {
+	return true
+}
+
+func textView(_ textView: UITextView, 
+              shouldInteractWith textAttachment: NSTextAttachment, 
+              in characterRange: NSRange, 
+              interaction: UITextItemInteraction) -&gt; Bool {
+	return true
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>ADBEBD03-F10A-42A5-9593-9C0BE007A463</string>
 	<key>IDECodeSnippetLanguage</key>

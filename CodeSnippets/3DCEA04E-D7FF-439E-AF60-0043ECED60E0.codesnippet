@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var sw&lt;#varname#&gt;: UISwitch?</string>
+	<string>@IBOutlet private weak var sw&lt;#varname#&gt;: UISwitch?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3DCEA04E-D7FF-439E-AF60-0043ECED60E0</string>
 	<key>IDECodeSnippetLanguage</key>

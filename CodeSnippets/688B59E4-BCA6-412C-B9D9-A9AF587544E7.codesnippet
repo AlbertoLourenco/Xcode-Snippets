@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var sv&lt;#varname#&gt;: UIScrollView?</string>
+	<string>@IBOutlet private weak var sv&lt;#varname#&gt;: UIScrollView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>688B59E4-BCA6-412C-B9D9-A9AF587544E7</string>
 	<key>IDECodeSnippetLanguage</key>

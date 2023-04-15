@@ -10,16 +10,16 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: Custom methods
-	//-----------------------------------------------------------------------
+//  MARK: - Custom methods
+//-----------------------------------------------------------------------
+
+func configUI() {
 	
-	func configUI() {
-		
-	}
+}
+
+func loadUI() {
 	
-	func loadUI() {
-		
-	}</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>65759DAC-3CE4-42C9-B6F0-B64E9A55CB15</string>
 	<key>IDECodeSnippetLanguage</key>

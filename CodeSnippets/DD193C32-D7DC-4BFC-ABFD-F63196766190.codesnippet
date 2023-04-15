@@ -10,47 +10,55 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: UITableView Delegate / Datasource
-	//-----------------------------------------------------------------------
+//  MARK: - UITableView Delegate / Datasource
+//-----------------------------------------------------------------------
+
+func numberOfSections(in tableView: UITableView) -&gt; Int {
+	return 0
+}
+
+func tableView(_ tableView: UITableView, 
+               numberOfRowsInSection section: Int) -&gt; Int {
+	return 0
+}
+
+func tableView(_ tableView: UITableView, 
+               viewForHeaderInSection section: Int) -&gt; UIView? {
+	return nil
+}
+
+func tableView(_ tableView: UITableView,
+               viewForFooterInSection section: Int) -&gt; UIView? {
+	return nil
+}
+
+func tableView(_ tableView: UITableView, 
+               heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+	return 0
+}
+
+func tableView(_ tableView: UITableView, 
+               willDisplay cell: UITableViewCell, 
+               forRowAt indexPath: IndexPath) {
 	
-	func numberOfSections(in tableView: UITableView) -&gt; Int {
-		return 0
+}
+
+func tableView(_ tableView: UITableView, 
+               cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+	
+	var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+	
+	if cell == nil {
+		cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 	}
 	
-	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-		return 0
-	}
+	return cell!
+}
+
+func tableView(_ tableView: UITableView,
+               didSelectRowAt indexPath: IndexPath) {
 	
-	func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
-		return nil
-	}
-	
-	func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
-		return nil
-	}
-	
-	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
-		return 0
-	}
-	
-	func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-		
-	}
-	
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-		
-		var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-		
-		if cell == nil {
-			cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-		}
-		
-		return cell!
-	}
-	
-	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		
-	}</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DD193C32-D7DC-4BFC-ABFD-F63196766190</string>
 	<key>IDECodeSnippetLanguage</key>

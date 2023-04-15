@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var btn&lt;#varname#&gt;: UIButton?</string>
+	<string>@IBOutlet private weak var btn&lt;#varname#&gt;: UIButton?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9EBEB24E-100E-4F4F-BED7-535651987B65</string>
 	<key>IDECodeSnippetLanguage</key>

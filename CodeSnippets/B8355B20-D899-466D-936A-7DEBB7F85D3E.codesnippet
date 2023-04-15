@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var pc&lt;#varname#&gt;: UIPageControl?</string>
+	<string>@IBOutlet private weak var pc&lt;#varname#&gt;: UIPageControl?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B8355B20-D899-466D-936A-7DEBB7F85D3E</string>
 	<key>IDECodeSnippetLanguage</key>

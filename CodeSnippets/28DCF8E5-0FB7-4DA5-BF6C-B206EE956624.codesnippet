@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>dispatch_async(dispatch_get_main_queue(), ^ {
     &lt;#code#&gt;
-    });</string>
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>28DCF8E5-0FB7-4DA5-BF6C-B206EE956624</string>
 	<key>IDECodeSnippetLanguage</key>

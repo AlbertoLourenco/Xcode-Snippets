@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var sld&lt;#varname#&gt;: UISlider?</string>
+	<string>@IBOutlet private weak var sld&lt;#varname#&gt;: UISlider?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4537BA55-70A6-405C-969F-3191BFC8161F</string>
 	<key>IDECodeSnippetLanguage</key>

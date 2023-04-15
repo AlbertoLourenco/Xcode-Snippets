@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var sb&lt;#varname#&gt;: UISearchBar?</string>
+	<string>@IBOutlet private weak var sb&lt;#varname#&gt;: UISearchBar?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>789CFF02-166C-4973-BF14-87CD254B4984</string>
 	<key>IDECodeSnippetLanguage</key>

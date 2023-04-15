@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var map&lt;#varname#&gt;: MKMapView?</string>
+	<string>@IBOutlet private weak var map&lt;#varname#&gt;: MKMapView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DC2C2F82-8FE1-44DC-B74A-87BA1260835D</string>
 	<key>IDECodeSnippetLanguage</key>

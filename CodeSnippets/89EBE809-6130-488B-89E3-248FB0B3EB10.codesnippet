@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet var vw&lt;#varname#&gt;: UIView?</string>
+	<string>@IBOutlet private weak var vw&lt;#varname#&gt;: UIView?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>89EBE809-6130-488B-89E3-248FB0B3EB10</string>
 	<key>IDECodeSnippetLanguage</key>

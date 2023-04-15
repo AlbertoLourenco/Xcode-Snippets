@@ -10,32 +10,32 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: UIViewController
-	//-----------------------------------------------------------------------
+//  MARK: - UIViewController
+//-----------------------------------------------------------------------
+
+override func viewDidLoad() {
+	super.viewDidLoad()
+}
+
+override func viewWillAppear(_ animated: Bool) {
+	super.viewWillAppear(animated)
 	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-	}
+}
+
+override func viewDidAppear(_ animated: Bool) {
+	super.viewDidAppear(animated)
 	
-	override func viewWillAppear(_ animated: Bool) {
-		super.viewWillAppear(animated)
-		
-	}
+}
+
+override func viewWillDisappear(_ animated: Bool) {
+	super.viewWillDisappear(animated)
 	
-	override func viewDidAppear(_ animated: Bool) {
-		super.viewDidAppear(animated)
-		
-	}
+}
+
+override func viewDidDisappear(_ animated: Bool) {
+	super.viewDidDisappear(animated)
 	
-	override func viewWillDisappear(_ animated: Bool) {
-		super.viewWillDisappear(animated)
-		
-	}
-	
-	override func viewDidDisappear(_ animated: Bool) {
-		super.viewDidDisappear(animated)
-		
-	}</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>43D5BF1D-5184-42AD-A515-D3DC2983BA06</string>
 	<key>IDECodeSnippetLanguage</key>

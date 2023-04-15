@@ -10,24 +10,28 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//-----------------------------------------------------------------------
-	//	MARK: UIWebView Delegate
-	//-----------------------------------------------------------------------
+//  MARK: - UIWebView Delegate
+//-----------------------------------------------------------------------
+
+func webView(_ webView: UIWebView, 
+             shouldStartLoadWith request: URLRequest, 
+             navigationType: UIWebViewNavigationType) -&gt; Bool {
+	return false
+}
+
+func webViewDidStartLoad(_ webView: UIWebView) {
 	
-	func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -&gt; Bool {
-		return false
-	}
+}
+
+func webViewDidFinishLoad(_ webView: UIWebView) {
 	
-	func webViewDidStartLoad(_ webView: UIWebView) {
-		
-	}
+}
+
+func webView(_ webView: UIWebView, 
+             didFailLoadWithError error: Error) {
 	
-	func webViewDidFinishLoad(_ webView: UIWebView) {
-		
-	}
-	
-	func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
-		
-	}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3E04B2BD-25D6-460E-93EE-C683E620E75B</string>
 	<key>IDECodeSnippetLanguage</key>
