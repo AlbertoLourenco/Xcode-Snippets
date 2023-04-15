@@ -23,6 +23,14 @@ First, follow these steps:
 
 If you don't have any snippets created yet, copy the folder `CodeSnippets`, or can just move the `.codesnippet` files to this folder.
 
+## DispatchQueue
+
+```
+mt: Main
+bt: Bacground
+after: Delayed
+```
+
 ## IBOutlets
 
 All IBOutlets can be instantiate with the `ib` prefix, like that:
