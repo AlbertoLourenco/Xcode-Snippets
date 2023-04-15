@@ -1,63 +1,83 @@
-# Xcode Snippets
-![Xcode-Snippets v1.0.0](http://albertolourenco.com.br/github/xcode-snippets.png)
+![cover](https://raw.githubusercontent.com/AlbertoLourenco/Xcode-Snippets/master/github-assets/cover.png)
 
-Developed for Objective-C and Swift.
+`Objective-C` and `Swift`
 
-Here we have a short documentation of Xcode snippets shortcuts. Follow this steps to import these files and do code more fast:
+## About it
 
-Open Finder, choose “Go > Go to Folder”:
+With Code snippets you can code more fastly, this feature works like a shortcurt typing abbreviations.
 
-~/Library/Developer/Xcode/UserData/CodeSnippets
+These snippets can be created by you, but here are some mostly common samples that I've used during my carrer as iOS developer.
 
-And finally move our “.codesnippet” files to this folder.
+## How to use
 
-**IBOutlets**
+First, follow these steps:
 
-	All IBOutlets snippets have the "ib" prefix and var type name initials:
+1. Open *Finder*
+2. Choose the menu option *Go*
+3. Select *Go to Folder*
+4. Paste that path:
 
-	- ibsv: UIScrollView
-	- ibcv: UICollectionView
-	- ibtb: UITableView
-	- ibtv: UITextView
-	- ibtf: UITextField
-	- ibvw: UIView
-	- ibwv: UIWebView
-	- ibsw: UISwitch
-	- ibst: UIStepper
-	- ibpc: UIPageControl
-	- ibpg: UIProgressView
-	- ibsc: UISegmentedControl
-	- ibsb: UISearchBar
-	- iblbl: UILabel
-	- ibbtn: UIButton
-	- ibimg: UIImageView
-	- ibact: UIActivityIndicatorView
-	- ibmap: MKMapView
-	- ibwkv: WKWebView
+```
+~/Library/Developer/Xcode/UserData/
+```
 
-**Delegates / Datasources**
+If you don't have any snippets created yet, copy the folder `CodeSnippets`, or can just move the `.codesnippet` files to this folder.
 
-	Methods snippets have var type name initials + "m" (methods):
+## IBOutlets
 
-	- vcm: UIViewController
-	- tvm: UITableView
-	- cvm: UICollectionView
-	- svm: UIScrollView
-	- wvm: UIWebView
-	- sbm: UISearchBar
-	- txtvm: UITextView
-	- custom: Custom methods
+All IBOutlets can be instantiate with the `ib` prefix, like that:
 
-**Classes**
+```
+ibsv: UIScrollView
+ibcv: UICollectionView
+ibtb: UITableView
+ibtv: UITextView
+ibtf: UITextField
+ibvw: UIView
+ibwv: UIWebView
+ibsw: UISwitch
+ibst: UIStepper
+ibpc: UIPageControl
+ibpg: UIProgressView
+ibsc: UISegmentedControl
+ibsb: UISearchBar
+iblbl: UILabel
+ibbtn: UIButton
+ibimg: UIImageView
+ibact: UIActivityIndicatorView
+ibmap: MKMapView
+ibwkv: WKWebView
+```
 
-	Classes snippets are implementations with delegate/datasource and custom methods:
+## Delegates / Datasources
 
-	- tbclass: UViewController + UITableView
-	- cvclass: UIViewController + UICollectionView
-	- svclass: UIViewController + UIScrollView
+Functions/methods snippets has var type name initials and sufix `m` (methods):
 
-	- vccontroller: UIViewController
-	- tbcontroller: UITableViewController
-	- cvcontroller: UICollectionViewController
+```
+vcm: UIViewController
+tvm: UITableView
+cvm: UICollectionView
+svm: UIScrollView
+wvm: UIWebView
+sbm: UISearchBar
+txtvm: UITextView
+custom: Custom methods
+```
 
-As a gift, you can install a new theme for your code following above steps, go to “FontAndColorThemes” folder and paste “ALTheme.xccolortheme” file. Then open Xcode and go to “Preferences > Fonts & Colors” and choose “ALTheme”.
+## Classes
+
+Classes snippets are implementations with delegate/datasource and custom methods:
+
+```
+tbclass: UViewController + UITableView
+cvclass: UIViewController + UICollectionView
+svclass: UIViewController + UIScrollView
+
+vccontroller: UIViewController
+tbcontroller: UITableViewController
+cvcontroller: UICollectionViewController
+```
+
+## In action
+
+![preview](https://raw.githubusercontent.com/AlbertoLourenco/Xcode-Snippets/master/github-assets/preview-1.gif)
