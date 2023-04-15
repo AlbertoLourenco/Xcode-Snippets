@@ -27,7 +27,7 @@ If you don't have any snippets created yet, copy the folder `CodeSnippets`, or c
 
 ```
 mt: Main
-bt: Bacground
+bt: Background
 after: Delayed
 ```
 
